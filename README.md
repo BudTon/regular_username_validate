@@ -6,15 +6,11 @@
 
 **Важно**: тесты должны обеспечивать 100% покрытие тестируемых функций по строкам.
 
-**Важно**: решения должны быть построены на базе [шаблона Webpack](/ci-template).
-
-В личном кабинете на сайте [netology.ru](http://netology.ru/) в поле комментария к домашней работе вставьте ссылки на ваш GitHub-проекты.
-
 ---
 
 ## Никнеймы
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/4eqfn0phnq3yuwea?svg=true)](https://ci.appveyor.com/project/BudTon/regular-username-validate)
 
 ### Легенда
 

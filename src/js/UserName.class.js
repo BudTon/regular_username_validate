@@ -1,6 +1,6 @@
 /* eslint-disable no-useless-escape*/
 
-export default class Validator {
+export class Validator {
     constructor(nikeName) {
         this.nikeName = nikeName;
     };
@@ -12,7 +12,7 @@ export default class Validator {
             // return console.log('Строка подходит');
             return true;
         } else {
-            // return console.log('Строка НЕ подходит');
+            // return console.log('Строка НЕЕ подходит');
             return false;
         };
     };

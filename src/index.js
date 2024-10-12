@@ -1,4 +1,4 @@
-import Validator from './js/UserName.class.js'
+import { Validator } from './js/UserName.class.js'
 // const { Validator } = require('./js/UserName.class.js');
 
 let nikeName = new Validator('infobk-ru');
