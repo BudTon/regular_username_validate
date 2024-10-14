@@ -8,13 +8,7 @@ export class Validator {
         console.log(this.nikeName);
         const regText = /^[^0-9 -][\w\-\ ][\w\-\ ]+[^0-9 -]$/i.test(this.nikeName);
         const regNumber = /^(\D|\d(\D|$)|\d\d(\D|$))*$/.test(this.nikeName);
-        if (regText && regNumber) {
-            // return console.log('Строка подходит');
-            return true;
-        } else {
-            // return console.log('Строка НЕЕ подходит');
-            return false;
-        };
+        return regText && regNumber
     };
 };
 
